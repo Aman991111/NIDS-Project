@@ -1,25 +1,132 @@
-# Network Intrusion Detection System (NIDS)
+🔐 Real-Time Network Intrusion Detection & Prevention System (NIDS + IPS)
 
-This is a simple project I built to understand how network security
-works in real time.
+📌 Overview
 
-The idea is to monitor network traffic, detect suspicious activity like
-port scanning, and take action against it.
+This project is a real-time Network Intrusion Detection and Prevention System (NIDS + IPS) built using Python and Scapy. It monitors live network traffic, detects suspicious activities such as port scanning, and automatically blocks malicious IP addresses using iptables.
 
-## What this project does
+---
 
--   Captures live network traffic using Scapy\
--   Tracks how many ports an IP is trying to access\
--   If an IP tries too many ports, it is treated as a port scan\
--   Logs the alert in a file\
--   Blocks the IP using iptables (Linux)
+🚀 Features
 
-## Why I built this
+- Real-time packet sniffing and analysis
+- Detection of port scanning attacks
+- Automated IP blocking using iptables
+- Logging of suspicious activities
+- Attack simulation using Nmap
+- Traffic analysis using Wireshark
 
-I wanted to learn how intrusion detection systems actually work instead
-of just reading theory.\
-So I tried building a small version of it using Python.
+---
 
+🛠️ Technologies Used
+
+- Python
+- Scapy
+- Nmap
+- Wireshark
+- OpenVAS
+- Linux (iptables)
+
+---
+
+⚙️ How to Run
+
+1. Clone the repository
+
+git clone https://github.com/Aman991111/NIDS-Project
+cd NIDS-Project
+
+2. Install dependencies
+
+pip install scapy
+
+3. Run the project
+
+sudo python3 main.py
+
+---
+
+📊 Example Output
+
+[ALERT] Port Scan Detected from IP: 192.168.1.5
+[ACTION] Blocking IP using iptables...
+[LOG] Entry saved for security auditing
+
+---
+
+📁 Project Structure
+
+NIDS-Project/
+│── main.py
+│── logger.py
+│── README.md
+
+---
+
+🔐 Skills Demonstrated
+
+- Network Traffic Analysis
+- Intrusion Detection Systems (NIDS)
+- Intrusion Prevention Systems (IPS)
+- Cybersecurity Monitoring
+- Linux Firewall (iptables)
+
+---
+
+👨‍💻 Author
+
+Aman Parashar- Wireshark
+- OpenVAS
+- Linux (iptables)
+
+---
+
+⚙️ How to Run
+
+1. Clone the repository
+
+git clone https://github.com/Aman991111/NIDS-Project
+cd NIDS-Project
+
+2. Install dependencies
+
+pip install scapy
+
+3. Run the project
+
+sudo python3 main.py
+
+---
+
+📊 Example Output
+
+[ALERT] Port Scan Detected from IP: 192.168.1.5
+[ACTION] Blocking IP using iptables...
+[LOG] Entry saved for security auditing
+
+---
+
+📁 Project Structure
+
+NIDS-Project/
+│── main.py
+│── logger.py
+│── README.md
+
+---
+
+🔐 Skills Demonstrated
+
+- Network Traffic Analysis
+- Intrusion Detection Systems (NIDS)
+- Intrusion Prevention Systems (IPS)
+- Cybersecurity Monitoring
+- Linux Firewall (iptables)
+
+---
+
+👨‍💻 Author
+
+Aman Parashar
 ## Tech used
 
 -   Python\
