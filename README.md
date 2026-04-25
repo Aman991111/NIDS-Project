@@ -18,8 +18,6 @@ Features
 - Python
 - Scapy
 - Nmap
-- Wireshark
-- OpenVAS
 - Linux (iptables)
 
 How to Run
