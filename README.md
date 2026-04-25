@@ -11,7 +11,6 @@ Features
 - Automated IP blocking using iptables
 - Logging of suspicious activities
 - Attack simulation using Nmap
-- Traffic analysis using Wireshark
 
  Technologies Used
 
